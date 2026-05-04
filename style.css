@@ -209,4 +209,53 @@ footer{
 .info{
     display: flex;
     justify-content: space-around;
+    padding: 40px;
+}
+.adresse{
+    margin: 0px;
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 33%;
+    
+
+}
+.adresse p{
+    margin: 0;
+}
+.adresse a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.Legal__notice{
+    color: #4d3566;
+}
+.Logo__vertical{
+    margin: 0 auto;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+.Logo__vertical img{
+    width: auto;
+    max-width: 100px;
+    height: auto;
+}
+/* debut logo réseau sociaux */
+.Reseau__sociaux{
+    width: 33%;
+}
+.Reseau__sociaux h3{
+    text-align: end;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 2.5rem;
+
+}
+.logosociaux{
+    display: flex;
+    justify-content: end;
+    font-size: 2.5rem;
 }
